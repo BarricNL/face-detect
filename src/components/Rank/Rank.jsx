@@ -5,7 +5,7 @@ return(
     <div>
 
         <div className='white f3'>
-            {'Andrei, your current rank is...'}
+            {'Hi'}
 
         </div>
 
