@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        span.emoji {
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            font-size: 30px;
+            vertical-align: middle;
+            line-height: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width:200px; height:200px; background-color: red">
+        <span class="emoji">😂</span>
+    </div>
+    <img id="img" src="https://3.bp.blogspot.com/-WH97v0eTyEs/WynRu8A1r4I/AAAAAAAANJ0/_PHvLmCXUwE6vUkPB0Q9f_4XwsSD-FkAQCLcBGAs/s1600/Blow_Kiss_Emoji_large.png" style="display:none" alt="emoji" />
+
+    <button id='btn'>show</button>
+
+    <script>
+        const btn = document.getElementById('btn');
+        const img = document.getElementById('img')
+        btn.onclick = function() {
+            img.style = 'display';
+
+        }
+    </script>
+</body>
+
+</html>
